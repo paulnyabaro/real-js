@@ -5,6 +5,9 @@
     --padding-lg: 2rem;
     --padding-xl: 3rem;
     --green:green;
+    --black: #161616;
+    --white:#f7f7f7;
+    font-size: 1rem;
 }
 
 *{
@@ -17,6 +20,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    line-height: 1.8;
 }
 h1{
     font-weight: 600;
@@ -41,6 +45,21 @@ nav{
     align-items: center;
 }
 header{
-    padding: var(--padding-xl);
+    padding: var(--padding-xl) 0;
     background-color: var(--green);
+}
+footer{
+    padding: var(--padding-xl) 0;
+    background-color: var(--black);
+    color: var(--white);
+}
+.grid{
+    display: grid;
+    gap: 2rem;
+}
+.grid-row-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+section{
+    padding: var(--padding-lg) 0;
 }
