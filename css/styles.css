@@ -1,0 +1,46 @@
+:root{
+    --box-shadow-sm: 0 0 10px #0002;
+    --padding-sm: 1rem;
+    --padding-m: 1.5rem;
+    --padding-lg: 2rem;
+    --padding-xl: 3rem;
+    --green:green;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-weight: 600;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+nav{
+    box-shadow: var(--box-shadow-sm);
+}
+.navbar{
+    padding: var(--padding-sm) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    gap:2rem;
+    align-items: center;
+}
+header{
+    padding: var(--padding-xl);
+    background-color: var(--green);
+}
