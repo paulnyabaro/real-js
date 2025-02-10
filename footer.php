@@ -6,6 +6,9 @@
                 <h3>About</h3>
                 <p>Deserunt inventore eveniet, quisquam illo dolorum earum ex magni, hic obcaecati repellat deleniti culpa.</p>
             </div>
+            <div class="grid-1">
+                <h3>Quick links</h3>
+            </div>
         </div>
     </div>
 </footer>
