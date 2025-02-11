@@ -8,6 +8,9 @@
             </div>
             <div class="grid-1">
                 <h3>Quick links</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                </ul>
             </div>
         </div>
     </div>
